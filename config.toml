@@ -1,0 +1,144 @@
+theme = "binario"
+title = "Les's Notes"
+baseurl = "/"
+AuthorName = "Les Vogel"
+# place your logo file to ./static/images to set logo
+
+languageCode = "en-us"
+defaultContentLanguage = "en"
+MetaDataFormat = "yaml"
+
+# you may not need this
+hasCJKLanguage = true
+
+paginate = 10
+enableEmoji = true
+
+# to have better preview
+buildDrafts = "true"
+# helpful if you want to edit the site or theme code
+disableFastRender = true
+# --------------------------------------------------------------------------
+
+disqusShortname = "les_vogel"
+googleAnalytics = "UA-64521263-2"
+
+[Author] # Used in authorbox
+  name = "Les Vogel"
+  bio = "Les Vogel works as a Staff Engineer in developer relations for Google Cloud."
+  avatar = "images/lesv-bio-2018-avatar.jpeg"
+
+# social link in the footer, change it to "" hide it
+[social]
+    github = "https://github.com/lesv"
+    facebook = ""
+    twitter = "https://twitter.com/lesv"
+    behance = ""
+    email = "mailto:lesv+dev@angeltech.com?subject=lesv.dev:+feedback"
+
+
+# menubar setting, you can change url, weight and name except the 'Theme'.
+[[menu.main]]
+    name = "Posts"
+    url = "/posts"
+    weight = 1
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories"
+    weight = 10
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 15
+
+[[menu.main]]
+    name = "Speaking"
+    url = "/speaking"
+    weight = 40
+
+[[menu.main]]
+    name = "Me"
+    url = "/me"
+    weight = 60
+
+
+[Params]
+  description = "I generate lots of notes, I thought I'd try sharing."
+  copyright = "Les Vogel"
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
+  columns = 2 # Set the number of cards columns. Possible values: 1, 2, 3
+  mainSections = ["posts"] # Set main page sections
+  post_meta = ["date", "categories"] # Enable post meta fields in given order
+  dateFormat = "January 02, 2006" # Change the format of dates
+  colorTheme = "" # dark-green, dark-blue, dark-red, dark-violet
+  mainMenuAlignment = "right" # Align main menu (desktop version) to the right side
+  authorbox = true # Show authorbox at bottom of single pages if true
+  toc = true # Enable Table of Contents for all site pages
+  tocOpen = true # Open Table of Contents block. Optional
+  comments = true # Enable comments for all site pages
+  related = true # Enable Related content for single pages
+  relatedMax = 5 # Set the maximum number of posts that can be displayed in related block. Optional
+  mathjax = true # Enable MathJax for all site pages
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path. Optional
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config. Optional
+  hideNoPostsWarning = false # Don't show no posts empty state warning in main page, if true
+
+    # will use AuthorName if you leave it blank, but you can set it to arbitrary text
+    author = "lesv"
+    title = "Notes from along the way."
+
+    # change it to false if you don't need syntax highlighting, and save a little bandwidth
+    isHighlightCode = true
+    # set true need to use custom js
+    useCustomSyntaxHighlight = false
+    customJs = []
+    customCss = []
+
+
+[Params.Featured]
+  previewOnly = false # Show only preview featured image
+
+[Params.Breadcrumb]
+  enable = true # Enable breadcrumb block globally
+  homeText = "lesv.dev" # Home node text
+
+
+[Params.Social]
+  email = "lesv+dev@angeltech.com"
+#   facebook = "username"
+  twitter = "lesv"
+#   telegram = "username"
+#   instagram = "username"
+#   pinterest = "username"
+#   vk = "username"
+  linkedin = "lesv"
+  github = "lesv"
+#   gitlab = "username"
+  stackoverflow = "738710"
+#   mastodon = "https://some.instance/@username"
+  medium = "lesv"
+
+
+[Params.Share] # Post Share block
+  facebook = false
+  twitter = true
+  reddit = true
+  telegram = false
+  linkedin = true
+  vk = false
+  pocket = true
+  pinterest = false
+
+
+[outputFormats]
+  [outputFormats.MANIFEST]
+    mediaType = "application/json"
+    baseName = "manifest"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "MANIFEST"]

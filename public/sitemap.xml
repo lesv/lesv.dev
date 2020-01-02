@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/tags/blogging/</loc>
+    <lastmod>2020-01-01T12:12:41-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-01-01T12:12:41-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2020-01-01T12:12:41-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/intro/</loc>
+    <lastmod>2020-01-01T12:12:41-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-01-01T12:12:41-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/once-more-into-the-breach-dear-friends/</loc>
+    <lastmod>2020-01-01T12:12:41-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-01-01T12:12:41-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-01-01T12:12:41-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/speaking/</loc>
+    <lastmod>2019-12-31T17:47:52-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/bio/</loc>
+    <lastmod>2019-12-31T17:45:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bio/</loc>
+    <lastmod>2019-12-31T17:45:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/me/</loc>
+    <lastmod>2019-12-31T17:45:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/hugo/</loc>
+    <lastmod>2015-06-27T13:45:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/first/</loc>
+    <lastmod>2015-06-27T12:45:30-07:00</lastmod>
+  </url>
+  
+</urlset>
