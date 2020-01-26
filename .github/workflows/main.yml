@@ -1,0 +1,19 @@
+name: CI
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Push to production
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        submodules: true
+    - name: Hugo build and Firebase Deploy
+      uses: pulimento/github-action-hugo-deploy-to-firebase@1.1.0
+      with:
+        firebase-token: ${{ secrets.secret_firebase_token }}
