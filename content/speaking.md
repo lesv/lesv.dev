@@ -10,5 +10,5 @@ slug: ""
 draft: false
 ---
 
-Les has spoken at many meetups and events about Google TV, Android, Chromecast, Authorization and
-Authentication, Big data (bigtable, Apache Beam, Apache Flink), and many other topics.
+Les has spoken at many meetups and events about Authorization and Authentication, Google TV, 
+Android, Chromecast, Big data (bigtable, Apache Beam, Apache Flink), and many other topics.

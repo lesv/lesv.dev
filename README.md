@@ -13,13 +13,7 @@ hugo server -D
 ## How to Deploy to firebase
 change `draft: true` ==> `draft: false`
 
-```sh
-hugo -D
-# optional verison
-hugo && firebase deploy
-```
-
-Site gets built to ./public
+push to github should deploy to firebase site automatically. (github action)
 
 ## Update theme to latest
 
