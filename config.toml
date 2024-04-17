@@ -21,7 +21,7 @@ disableFastRender = true
 # --------------------------------------------------------------------------
 
 disqusShortname = "les_vogel"
-googleAnalytics = "UA-64521263-2"
+googleAnalytics = "G-MN653YPY4J"
 
 [Author] # Used in authorbox
   name = "Les Vogel"
