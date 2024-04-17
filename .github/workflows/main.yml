@@ -7,13 +7,18 @@ on:
 
 jobs:
   build:
-    name: Push to production
+    name: Push Hugo to Firebase Hosting
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
       with:
-        submodules: true
+        submodules: recursive
+    - uses: actions/setup-node@v4
+        with:
+          node-version: '21'
+    - run: npm install -g firebase-tools
+    - run: node -v && firebase --version && hugo version
     - name: Hugo build and Firebase Deploy
-      uses: pulimento/github-action-hugo-deploy-to-firebase@1.1.0
+      run: hugo && firebase use --token "${FIREBASE_TOKEN}" && firebase deploy --non-interactive --token "${FIREBASE_TOKEN}"
       with:
-        firebase-token: ${{ secrets.secret_firebase_token }}
+        FIREBASE_TOKEN: ${{ secrets.FIREBASETOKEN }}
